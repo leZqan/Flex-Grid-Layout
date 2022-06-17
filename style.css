@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+main {
+  margin: 12em 15em;
+  display: flex;
+}
+.left,
+.right,
+.center {
+  padding: 4em;
+  height: 30em;
+  width: 15.5em;
+}
+.left {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+.center {
+  background-color: hsl(184, 100%, 22%);
+}
+.right {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 1.5em;
+  line-height: 150%;
+}
+h2 {
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+  margin-top: 1.5em;
+  font-size: 40px;
+}
+button {
+  margin-top: 8em;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5em;
+  cursor: pointer;
+  width: 10em;
+  border: 3px solid white;
+}
+.left button {
+  color: hsl(31, 77%, 52%);
+}
+.left button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+.center button {
+  color: hsl(184, 100%, 22%);
+}
+.center button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+.right button {
+  color: hsl(179, 100%, 13%);
+}
+.right button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
